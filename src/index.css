@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-list {
+  padding: 0 !important;
+}
+
+.bg_gridant_btn {
+  background: linear-gradient(271.22deg, #e11d48 2.69%, #ea580c 96.56%);
+}
+
+.bg_gridant_btn:hover {
+  background: linear-gradient(271.22deg, #ea580c 2.69%, #e11d48 96.56%);
+  color: white;
+  box-shadow: 0px 0px 100px inset #e11d48;
+}
+
+/* .slick-track {
+  margin-left: 130px !important;
+} */
+
+/* .slick-slide>div {
+  display: flex !important;
+} */
+
+/* .slick-track {
+  margin-left: -63px;
+} */
+
+select {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 0.5rem;
+  border: 1px solid #333;
+  font-family: inherit;
+  /** for the dropdown indicator */
+  appearance: none;
+  background-image: url("./assets/images/svg/filterArrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 24px;
+}
+
+.animation_rotate {
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+.FulcraOfferingsslider .slick-track {
+  display: flex !important;
+}
+.FulcraOfferingsslider .slick-slide {
+  height: inherit !important;
+  display: flex !important;
+}
+.FulcraOfferingsslider .slick-slide > div > div {
+  display: flex;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 1280px) {
+  .slick-track {
+    margin-left: 130px !important;
+  }
+}
+
+/* @media (max-width: 1023.98px) {
+  .slick-track {
+    margin-left: -98px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slick-track {
+    margin-left: 113px !important;
+  }
+}
+
+@media (max-width: 639.98px) {
+  .slick-track {
+    margin-left: 0 !important;
+  }
+} */
+
+@media (max-width: 467.98px) {
+  .max_width_animation_text {
+    max-width: 85px;
+  }
+}
+
+@media (max-width: 425.98px) {
+  .max_width_animation_text {
+    max-width: 76px;
+  }
+}
+
+@media (max-width: 390px) {
+  .max_width_animation_text {
+    max-width: 67px;
+  }
+  .top_7 {
+    top: 7px !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .max_width_animation_text {
+    max-width: 57px;
+  }
+
+  .animation_rotate {
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 1279.98px) {
+    .slick-track {
+      margin-left: 136px !important;
+    }
+  }
+
+  @media (max-width: 1023.98px) {
+    .slick-track {
+      margin-left: -98px !important;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .slick-track {
+      margin-left: 113px !important;
+    }
+  }
+
+  @media (max-width: 639.98px) {
+    .slick-track {
+      margin-left: 0 !important;
+    }
+  }
+
+  @media (max-width: 467.98px) {
+    .max_width_animation_text {
+      max-width: 85px;
+    }
+  }
+
+  @media (max-width: 425.98px) {
+    .max_width_animation_text {
+      max-width: 76px;
+    } 
+  }
+
+  @media (max-width: 390px) {
+    .max_width_animation_text {
+      max-width: 67px;
+    } .top_7 {
+       top: 7px !important;
+     }
+  }
+
+  @media (max-width: 340px) {
+    .max_width_animation_text {
+      max-width: 57px;
+    }
+
+    .top_7 {
+      top: 7px !important;
+    }
+  }
+}

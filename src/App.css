@@ -1,0 +1,9 @@
+.slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 4000px;
+  left: 100%;
+  background-color: white;
+}
